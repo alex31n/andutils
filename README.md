@@ -29,9 +29,15 @@ Sept 1: Add it in your root build.gradle at the end of repositories:
 &nbsp;
 Step 2. Add the dependency
 ```
+	
 	dependencies {
-		implementation 'com.github.User:Repo:Tag'
+		
+		implementation 'com.github.alex31n:andutils:1.0'  // for android studio 3.+
+		
+		compile 'com.github.alex31n:andutils:1.0'         // for android studio 2.3 or older
 	}
+	
+	
 ```
 
 
