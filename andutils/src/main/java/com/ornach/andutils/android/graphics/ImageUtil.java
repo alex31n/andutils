@@ -3,6 +3,7 @@ package com.ornach.andutils.android.graphics;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Matrix;
 import android.util.Base64;
 
 import java.io.ByteArrayOutputStream;
@@ -25,7 +26,7 @@ public class ImageUtil {
 
         return Base64.encodeToString(outputStream.toByteArray(), Base64.DEFAULT);
     }
-    
+
     public static Bitmap centerCrop(Bitmap srcBmp){
         Bitmap dstBmp;
         if (srcBmp.getWidth() >= srcBmp.getHeight()){
