@@ -1,3 +1,7 @@
+[![](https://jitpack.io/v/alex31n/andutils.svg)](https://jitpack.io/#alex31n/andutils)
+&nbsp;
+
+
 # andutils
 &nbsp;
 A collection of some utilities class for android and java 
@@ -32,9 +36,9 @@ Step 2. Add the dependency
 	
 	dependencies {
 		
-		implementation 'com.github.alex31n:andutils:1.0'  // for android studio 3.+
+		implementation 'com.github.alex31n:andutils:1.0.4'  // for android studio 3.+
 		
-		compile 'com.github.alex31n:andutils:1.0'         // for android studio 2.3 or older
+		compile 'com.github.alex31n:andutils:1.0.4'         // for android studio 2.3 or older
 	}
 	
 	
