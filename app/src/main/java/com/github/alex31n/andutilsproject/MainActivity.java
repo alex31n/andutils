@@ -2,6 +2,7 @@ package com.github.alex31n.andutilsproject;
 
 import android.os.Bundle;
 
+import com.github.alex31n.andutils.java.DateUtils;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
     }
 
     @Override
