@@ -1,6 +1,7 @@
 package com.github.alex31n.andutils.java;
 
-import org.jetbrains.annotations.Nullable;
+
+import androidx.annotation.Nullable;
 
 public class StringUtils {
 
