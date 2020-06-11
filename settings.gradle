@@ -1,1 +1,3 @@
-include ':app', ':andutils'
+include ':andutils'
+include ':app'
+rootProject.name = "AndUtilsProject"
